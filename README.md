@@ -48,7 +48,7 @@ Example source fields:
 | `manufacturer` | `Lenovo` | Hardware manufacturer |
 | `os` | `Windows 2000` | Operating system value |
 
-![Source Excel Data](assets/01-source-excel-data.png)
+![Source Excel Data](screenshots/01-source-excel-data.png)
 
 ---
 
@@ -64,7 +64,7 @@ Example import set table:
 u_ritm1234_windows_server_create
 ```
 
-![Load Data Screen](assets/02-load-data-screen.png)
+![Load Data Screen](screenshots/02-load-data-screen.png)
 
 ---
 
@@ -78,7 +78,7 @@ Target table used:
 Windows Server [cmdb_ci_win_server]
 ```
 
-![Transform Map Target Table](assets/05-transform-map-target-table.png)
+![Transform Map Target Table](screenshots/05-transform-map-target-table.png)
 
 ---
 
@@ -92,7 +92,7 @@ Using **Mapping Assist**, the Excel source columns were mapped to the correct fi
 | `manufacturer` | `Manufacturer` |
 | `os` | `Operating System` |
 
-![Mapping Assist](assets/03-mapping-assist.png)
+![Mapping Assist](screenshots/03-mapping-assist.png)
 
 ---
 
@@ -100,11 +100,11 @@ Using **Mapping Assist**, the Excel source columns were mapped to the correct fi
 
 After creating the Transform Map, it was selected from the available transform maps and run against the import set.
 
-![Selected Transform Map](assets/06-selected-transform-map.png)
+![Selected Transform Map](screenshots/06-selected-transform-map.png)
 
 The transform completed successfully.
 
-![Transform Complete](assets/04-transform-complete.png)
+![Transform Complete](screenshots/04-transform-complete.png)
 
 ---
 
@@ -123,7 +123,7 @@ Empty and ignored: 0
 Ignored errors: 0
 ```
 
-![Import Processor Success](assets/07-import-processor-success.png)
+![Import Processor Success](screenshots/07-import-processor-success.png)
 
 ---
 
@@ -137,7 +137,7 @@ The imported records showed the expected values:
 - Operating System: `Windows 2000`
 - Manufacturer: `Lenovo`
 
-![Windows Server Records Created](assets/09-windows-server-records-created.png)
+![Windows Server Records Created](screenshots/09-windows-server-records-created.png)
 
 ---
 
@@ -152,7 +152,7 @@ Example relationship details visible in the list:
 | `ABC123` | `Receives data from::Sends data to` | `Storage Area Network 002` | `Always` |
 | `ABC124` | `Receives data from::Sends data to` | `Storage Area Network 002` | `Always` |
 
-![CI Relationship Bulk Load](assets/08-ci-relationship-bulk-load.png)
+![CI Relationship Bulk Load](screenshots/08-ci-relationship-bulk-load.png)
 
 ---
 
